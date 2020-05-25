@@ -1,0 +1,1072 @@
+958a6f0932214727ae9b5329a9cc82dc
+
+https://bgasparotto.com/convert-jdk-exe-zip - To extract the Java installation jar file.
+
+json wire protocol selenium  complete documentaion -   https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol
+
+C:\Users\ndh70903\.jenkins\secrets\initialAdminPassword
+
+**To generate proper Extent/HTML Report in Jenkins, use following script in Script Console of Jenkins:
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "") 
+
+or 
+ java -Dhudson.model.DirectoryBrowserSupport.CSP="sandbox; default-src 'none'; img-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';" -jar jenkins.war
+ System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","sandbox; default-src 'none'; img-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';")
+
+or launch the jenkins url in other browsers
+
+
+https://github.com/sarputheen/DemoRepo.git
+
+Create a new repository on the command line
+
+echo "# DemoRepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sarputheen/DemoRepo.git
+git push -u origin master
+                
+				
+push an existing repository from the command line				
+				git remote add origin https://github.com/sarputheen/DemoRepo.git
+git push -u origin master
+
+SarTestSSHKey 
+
+
+
+Generate SSH Key in Windows:  
+https://inchoo.net/dev-talk/how-to-generate-ssh-keys-for-git-authorization/
+Windows
+Just follow these 5 steps:
+
+Go to this address, and download Git for Windows, after the download install it with default settings
+Open Git Bash that you just installed (Start->All Programs->Git->Git Bash)
+Type in the following: ssh-keygen -t rsa (when prompted, enter password, key name can stay the same)
+Open file your_home_directory/.ssh/id_rsa.pub with your favorite text editor, and copy contents to your Git repository’s keys field (GitHub, beanstalk, or any other repository provider), under your account.
+Be sure that you don’t copy any whitespace while copying public key’s content (id_rsa.pub)
+Note: your_home_directory is either C:\Users\your_username (on Windows Vista / 7 / 8 / 10), or C:\Documents and Settings\your_username (on Windows XP)
+
+https://docs.joyent.com/public-cloud/...
+
+Generate SSH Key in MacOS:
+https://docs.joyent.com/public-cloud/...
+
+
+Microsoft Windows [Version 10.0.17134.1304]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\ndh70903>cd C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git init
+Initialized empty Git repository in C:/Users/ndh70903/eclipse-workspace/Log4jAPICode-master/.git/
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>dir
+ Volume in drive C is System
+ Volume Serial Number is 6A07-D944
+
+ Directory of C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master
+
+13-05-2020  16:23    <DIR>          .
+13-05-2020  16:23    <DIR>          ..
+12-05-2020  15:10             1,224 .classpath
+01-11-2017  17:38               541 .project
+01-11-2017  17:38    <DIR>          .settings
+12-05-2020  15:20           175,012 application.log
+01-11-2017  17:38             1,074 pom.xml
+01-11-2017  17:38    <DIR>          src
+01-11-2017  17:38    <DIR>          target
+01-11-2017  17:38    <DIR>          test-output
+               4 File(s)        177,851 bytes
+               6 Dir(s)  181,652,070,400 bytes free
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git remote add origin https://github.com/sarputheen/DemoRepo.git
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        application.log
+        pom.xml
+        src/
+        target/
+        test-output/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        application.log
+        pom.xml
+        src/
+        target/
+        test-output/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git add .
+warning: LF will be replaced by CRLF in .project.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.eclipse.core.resources.prefs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.eclipse.jdt.core.prefs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.eclipse.m2e.core.prefs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/log4j.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/tests/LoginTest.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/classes/META-INF/maven/GenerateLogs/GenerateLogs/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/classes/log4j.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/TEST-com.tests.LoginTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/com.tests.LoginTest.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/com.tests.LoginTest/Command line test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/com.tests.LoginTest/Command line test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/com.tests.LoginTest/testng-failed.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/emailable-report.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/jquery-1.7.1.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/junitreports/TEST-com.tests.LoginTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/com.tests.LoginTest/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/com.tests.LoginTest/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/com.tests.LoginTest/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/com.tests.LoginTest/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/com.tests.LoginTest/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/com.tests.LoginTest/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/com.tests.LoginTest/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-failed.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-reports.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-reports.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-results.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/testng-failed.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/jquery-1.7.1.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-com.tests.LoginTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-failed.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-reports.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-reports.js.
+The file will have its original line endings in your working directory
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   application.log
+        new file:   pom.xml
+        new file:   src/main/resources/log4j.properties
+        new file:   src/test/java/com/tests/LoginTest.java
+        new file:   target/classes/META-INF/MANIFEST.MF
+        new file:   target/classes/META-INF/maven/GenerateLogs/GenerateLogs/pom.properties
+        new file:   target/classes/META-INF/maven/GenerateLogs/GenerateLogs/pom.xml
+        new file:   target/classes/log4j.properties
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+        new file:   target/surefire-reports/TEST-com.tests.LoginTest.xml
+        new file:   target/surefire-reports/bullet_point.png
+        new file:   target/surefire-reports/collapseall.gif
+        new file:   target/surefire-reports/com.tests.LoginTest.txt
+        new file:   target/surefire-reports/com.tests.LoginTest/Command line test.html
+        new file:   target/surefire-reports/com.tests.LoginTest/Command line test.xml
+        new file:   target/surefire-reports/com.tests.LoginTest/testng-failed.xml
+        new file:   target/surefire-reports/emailable-report.html
+        new file:   target/surefire-reports/failed.png
+        new file:   target/surefire-reports/index.html
+        new file:   target/surefire-reports/jquery-1.7.1.min.js
+        new file:   target/surefire-reports/junitreports/TEST-com.tests.LoginTest.xml
+        new file:   target/surefire-reports/navigator-bullet.png
+        new file:   target/surefire-reports/old/com.tests.LoginTest/Command line test.properties
+        new file:   target/surefire-reports/old/com.tests.LoginTest/classes.html
+        new file:   target/surefire-reports/old/com.tests.LoginTest/groups.html
+        new file:   target/surefire-reports/old/com.tests.LoginTest/index.html
+        new file:   target/surefire-reports/old/com.tests.LoginTest/main.html
+        new file:   target/surefire-reports/old/com.tests.LoginTest/methods-alphabetical.html
+        new file:   target/surefire-reports/old/com.tests.LoginTest/methods-not-run.html
+        new file:   target/surefire-reports/old/com.tests.LoginTest/methods.html
+        new file:   target/surefire-reports/old/com.tests.LoginTest/reporter-output.html
+        new file:   target/surefire-reports/old/com.tests.LoginTest/testng.xml.html
+        new file:   target/surefire-reports/old/com.tests.LoginTest/toc.html
+        new file:   target/surefire-reports/old/index.html
+        new file:   target/surefire-reports/passed.png
+        new file:   target/surefire-reports/skipped.png
+        new file:   target/surefire-reports/testng-failed.xml
+        new file:   target/surefire-reports/testng-reports.css
+        new file:   target/surefire-reports/testng-reports.js
+        new file:   target/surefire-reports/testng-results.xml
+        new file:   target/surefire-reports/testng.css
+        new file:   target/test-classes/com/tests/LoginTest.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/Default suite/testng-failed.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery-1.7.1.min.js
+        new file:   test-output/junitreports/TEST-com.tests.LoginTest.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/old/Default suite/Default test.properties
+        new file:   test-output/old/Default suite/classes.html
+        new file:   test-output/old/Default suite/groups.html
+        new file:   test-output/old/Default suite/index.html
+        new file:   test-output/old/Default suite/main.html
+        new file:   test-output/old/Default suite/methods-alphabetical.html
+        new file:   test-output/old/Default suite/methods-not-run.html
+        new file:   test-output/old/Default suite/methods.html
+        new file:   test-output/old/Default suite/reporter-output.html
+        new file:   test-output/old/Default suite/testng.xml.html
+        new file:   test-output/old/Default suite/toc.html
+        new file:   test-output/old/index.html
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-failed.xml
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-results.xml
+        new file:   test-output/testng.css
+
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git commit -m "first git commit to my demo code"
+[master (root-commit) ec78c2f] first git commit to my demo code
+ 79 files changed, 4117 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 application.log
+ create mode 100644 pom.xml
+ create mode 100644 src/main/resources/log4j.properties
+ create mode 100644 src/test/java/com/tests/LoginTest.java
+ create mode 100644 target/classes/META-INF/MANIFEST.MF
+ create mode 100644 target/classes/META-INF/maven/GenerateLogs/GenerateLogs/pom.properties
+ create mode 100644 target/classes/META-INF/maven/GenerateLogs/GenerateLogs/pom.xml
+ create mode 100644 target/classes/log4j.properties
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+ create mode 100644 target/surefire-reports/TEST-com.tests.LoginTest.xml
+ create mode 100644 target/surefire-reports/bullet_point.png
+ create mode 100644 target/surefire-reports/collapseall.gif
+ create mode 100644 target/surefire-reports/com.tests.LoginTest.txt
+ create mode 100644 target/surefire-reports/com.tests.LoginTest/Command line test.html
+ create mode 100644 target/surefire-reports/com.tests.LoginTest/Command line test.xml
+ create mode 100644 target/surefire-reports/com.tests.LoginTest/testng-failed.xml
+ create mode 100644 target/surefire-reports/emailable-report.html
+ create mode 100644 target/surefire-reports/failed.png
+ create mode 100644 target/surefire-reports/index.html
+ create mode 100644 target/surefire-reports/jquery-1.7.1.min.js
+ create mode 100644 target/surefire-reports/junitreports/TEST-com.tests.LoginTest.xml
+ create mode 100644 target/surefire-reports/navigator-bullet.png
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/Command line test.properties
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/classes.html
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/groups.html
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/index.html
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/main.html
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/methods-alphabetical.html
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/methods-not-run.html
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/methods.html
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/reporter-output.html
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/testng.xml.html
+ create mode 100644 target/surefire-reports/old/com.tests.LoginTest/toc.html
+ create mode 100644 target/surefire-reports/old/index.html
+ create mode 100644 target/surefire-reports/passed.png
+ create mode 100644 target/surefire-reports/skipped.png
+ create mode 100644 target/surefire-reports/testng-failed.xml
+ create mode 100644 target/surefire-reports/testng-reports.css
+ create mode 100644 target/surefire-reports/testng-reports.js
+ create mode 100644 target/surefire-reports/testng-results.xml
+ create mode 100644 target/surefire-reports/testng.css
+ create mode 100644 target/test-classes/com/tests/LoginTest.class
+ create mode 100644 test-output/Default suite/Default test.html
+ create mode 100644 test-output/Default suite/Default test.xml
+ create mode 100644 test-output/Default suite/testng-failed.xml
+ create mode 100644 test-output/bullet_point.png
+ create mode 100644 test-output/collapseall.gif
+ create mode 100644 test-output/emailable-report.html
+ create mode 100644 test-output/failed.png
+ create mode 100644 test-output/index.html
+ create mode 100644 test-output/jquery-1.7.1.min.js
+ create mode 100644 test-output/junitreports/TEST-com.tests.LoginTest.xml
+ create mode 100644 test-output/navigator-bullet.png
+ create mode 100644 test-output/old/Default suite/Default test.properties
+ create mode 100644 test-output/old/Default suite/classes.html
+ create mode 100644 test-output/old/Default suite/groups.html
+ create mode 100644 test-output/old/Default suite/index.html
+ create mode 100644 test-output/old/Default suite/main.html
+ create mode 100644 test-output/old/Default suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Default suite/methods-not-run.html
+ create mode 100644 test-output/old/Default suite/methods.html
+ create mode 100644 test-output/old/Default suite/reporter-output.html
+ create mode 100644 test-output/old/Default suite/testng.xml.html
+ create mode 100644 test-output/old/Default suite/toc.html
+ create mode 100644 test-output/old/index.html
+ create mode 100644 test-output/passed.png
+ create mode 100644 test-output/skipped.png
+ create mode 100644 test-output/testng-failed.xml
+ create mode 100644 test-output/testng-reports.css
+ create mode 100644 test-output/testng-reports.js
+ create mode 100644 test-output/testng-results.xml
+ create mode 100644 test-output/testng.css
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git push -u origin master
+Enumerating objects: 95, done.
+Counting objects: 100% (95/95), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (74/74), done.
+Writing objects: 100% (95/95), 94.67 KiB | 1.55 MiB/s, done.
+Total 95 (delta 15), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (15/15), done.
+To https://github.com/sarputheen/DemoRepo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>cd ..
+
+C:\Users\ndh70903\eclipse-workspace>cd Log4jAPICode-masterClone
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-masterClone>git clone https://github.com/sarputheen/DemoRepo
+Cloning into 'DemoRepo'...
+remote: Enumerating objects: 95, done.
+remote: Counting objects: 100% (95/95), done.
+remote: Compressing objects: 100% (59/59), done.
+remote: Total 95 (delta 15), reused 95 (delta 15), pack-reused 0
+Receiving objects: 100% (95/95), 94.67 KiB | 377.00 KiB/s, done.
+Resolving deltas: 100% (15/15), done.
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-masterClone>cd C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git pull origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 682 bytes | 35.00 KiB/s, done.
+From https://github.com/sarputheen/DemoRepo
+ * branch            master     -> FETCH_HEAD
+   ec78c2f..8f2cf3d  master     -> origin/master
+Updating ec78c2f..8f2cf3d
+Fast-forward
+ pom.xml | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git branch
+* master
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git pull origin firstBranch
+From https://github.com/sarputheen/DemoRepo
+ * branch            firstBranch -> FETCH_HEAD
+ * [new branch]      firstBranch -> origin/firstBranch
+Already up to date.
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git branch
+* master
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git checkout firstBranch
+Switched to a new branch 'firstBranch'
+Branch 'firstBranch' set up to track remote branch 'firstBranch' from 'origin'.
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git branch
+* firstBranch
+  master
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git status
+On branch firstBranch
+Your branch is up to date with 'origin/firstBranch'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/test/java/com/tests/LoginTest.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master> git add src/test/java/com/tests/LoginTest.java
+warning: LF will be replaced by CRLF in src/test/java/com/tests/LoginTest.java.
+The file will have its original line endings in your working directory
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git commit -m "Added log info in LoginTest.java"
+[firstBranch 5507412] Added log info in LoginTest.java
+ 1 file changed, 1 insertion(+)
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git push origin firstBranch
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (8/8), 555 bytes | 555.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: GitHub found 1 vulnerability on sarputheen/DemoRepo's default branch (1 moderate). To find out more, visit:
+remote:      https://github.com/sarputheen/DemoRepo/network/alerts
+remote:
+To https://github.com/sarputheen/DemoRepo.git
+   8f2cf3d..5507412  firstBranch -> firstBranch
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git status
+On branch firstBranch
+Your branch is ahead of 'origin/firstBranch' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   application.log
+        modified:   target/GenerateLogs-0.0.1-SNAPSHOT.jar
+        modified:   target/maven-archiver/pom.properties
+        modified:   target/surefire-reports/TEST-com.tests.LoginTest.xml
+        modified:   target/surefire-reports/com.tests.LoginTest.txt
+        modified:   target/surefire-reports/com.tests.LoginTest/Command line test.html
+        modified:   target/surefire-reports/com.tests.LoginTest/Command line test.xml
+        deleted:    target/surefire-reports/com.tests.LoginTest/testng-failed.xml
+        modified:   target/surefire-reports/emailable-report.html
+        modified:   target/surefire-reports/index.html
+        modified:   target/surefire-reports/junitreports/TEST-com.tests.LoginTest.xml
+        modified:   target/surefire-reports/old/com.tests.LoginTest/methods-alphabetical.html
+        modified:   target/surefire-reports/old/com.tests.LoginTest/methods.html
+        modified:   target/surefire-reports/old/com.tests.LoginTest/toc.html
+        modified:   target/surefire-reports/old/index.html
+        deleted:    target/surefire-reports/testng-failed.xml
+        modified:   target/surefire-reports/testng-results.xml
+        modified:   target/test-classes/com/tests/LoginTest.class
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git add .
+warning: LF will be replaced by CRLF in target/surefire-reports/TEST-com.tests.LoginTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/com.tests.LoginTest.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/com.tests.LoginTest/Command line test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/com.tests.LoginTest/Command line test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/junitreports/TEST-com.tests.LoginTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/com.tests.LoginTest/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/com.tests.LoginTest/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/com.tests.LoginTest/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/index.html.
+The file will have its original line endings in your working directory
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git status
+On branch firstBranch
+Your branch is ahead of 'origin/firstBranch' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   application.log
+        modified:   target/GenerateLogs-0.0.1-SNAPSHOT.jar
+        modified:   target/maven-archiver/pom.properties
+        modified:   target/surefire-reports/TEST-com.tests.LoginTest.xml
+        modified:   target/surefire-reports/com.tests.LoginTest.txt
+        modified:   target/surefire-reports/com.tests.LoginTest/Command line test.html
+        modified:   target/surefire-reports/com.tests.LoginTest/Command line test.xml
+        deleted:    target/surefire-reports/com.tests.LoginTest/testng-failed.xml
+        modified:   target/surefire-reports/emailable-report.html
+        modified:   target/surefire-reports/index.html
+        modified:   target/surefire-reports/junitreports/TEST-com.tests.LoginTest.xml
+        modified:   target/surefire-reports/old/com.tests.LoginTest/methods-alphabetical.html
+        modified:   target/surefire-reports/old/com.tests.LoginTest/methods.html
+        modified:   target/surefire-reports/old/com.tests.LoginTest/toc.html
+        modified:   target/surefire-reports/old/index.html
+        deleted:    target/surefire-reports/testng-failed.xml
+        modified:   target/surefire-reports/testng-results.xml
+        modified:   target/test-classes/com/tests/LoginTest.class
+
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git commit -m "Added Thread.sleep"
+[firstBranch 1c27c58] Added Thread.sleep
+ 18 files changed, 1059 insertions(+), 1669 deletions(-)
+ rewrite target/surefire-reports/TEST-com.tests.LoginTest.xml (91%)
+ rewrite target/surefire-reports/com.tests.LoginTest.txt (71%)
+ rewrite target/surefire-reports/com.tests.LoginTest/Command line test.html (64%)
+ rewrite target/surefire-reports/com.tests.LoginTest/Command line test.xml (71%)
+ delete mode 100644 target/surefire-reports/com.tests.LoginTest/testng-failed.xml
+ rewrite target/surefire-reports/junitreports/TEST-com.tests.LoginTest.xml (93%)
+ delete mode 100644 target/surefire-reports/testng-failed.xml
+ rewrite target/surefire-reports/testng-results.xml (71%)
+ rewrite target/test-classes/com/tests/LoginTest.class (90%)
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>git push origin firstBranch
+Enumerating objects: 128, done.
+Counting objects: 100% (127/127), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (68/68), done.
+Writing objects: 100% (84/84), 51.06 KiB | 1.06 MiB/s, done.
+Total 84 (delta 43), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (43/43), completed with 18 local objects.
+remote:
+remote: GitHub found 1 vulnerability on sarputheen/DemoRepo's default branch (1 moderate). To find out more, visit:
+remote:      https://github.com/sarputheen/DemoRepo/network/alerts
+remote:
+To https://github.com/sarputheen/DemoRepo.git
+   5507412..1c27c58  firstBranch -> firstBranch
+
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>
+
+
+Free Crm New porject---------------------------------------------------------------------
+--------------------------------------
+----------------------------------------------------
+C:\Users\ndh70903\eclipse-workspace\Log4jAPICode-master>cd C:\Users\ndh70903\eclipse-workspace\FreeCRMTest
+
+C:\Users\ndh70903\eclipse-workspace\FreeCRMTest>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\ndh70903\eclipse-workspace\FreeCRMTest>git init
+Initialized empty Git repository in C:/Users/ndh70903/eclipse-workspace/FreeCRMTest/.git/
+
+C:\Users\ndh70903\eclipse-workspace\FreeCRMTest>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        pom.xml
+        screenshots/
+        src/
+        target/
+        test-output/
+        testng.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\ndh70903\eclipse-workspace\FreeCRMTest>git add .
+warning: LF will be replaced by CRLF in src/main/java/com/crm/qa/base/TestBase.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/crm/qa/config/config.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/crm/qa/pages/ContactsPage.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/crm/qa/pages/DealsPage.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/crm/qa/pages/HomePage.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/crm/qa/pages/LoginPage.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/crm/qa/pages/SignUpPage.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/crm/qa/pages/TasksPage.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/crm/qa/util/TestUtil.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/crm/qa/util/WebEventListener.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/qa/ExtentReportListener/ExtentReporterNG.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resounrces/testng.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resounrces/testng_sanity.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/crm/qa/testcases/ContactsPageTest.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/crm/qa/testcases/LoginPageTest.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Command line suite/Command line test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Command line suite/Command line test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/TEST-TestSuite.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/TestSuite.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/jquery-1.7.1.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/junitreports/TEST-com.crm.qa.testcases.ContactsPageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/junitreports/TEST-com.crm.qa.testcases.LoginPageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Command line suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Command line suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Command line suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Command line suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Command line suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Command line suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Command line suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-reports.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-reports.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Extent.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/FREE CRM Application Test Automation Test Suite/Free CRM App Test Cases.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/FREE CRM Application Test Automation Test Suite/Free CRM App Test Cases.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/FreeCRMTest by packages/com.crm.qa.testcases.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/FreeCRMTest by packages/com.crm.qa.testcases.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-com.crm.qa.testcases.ContactsPageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-com.crm.qa.testcases.HomePageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-com.crm.qa.testcases.LoginPageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FREE CRM Application Test Automation Test Suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FREE CRM Application Test Automation Test Suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FREE CRM Application Test Automation Test Suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FREE CRM Application Test Automation Test Suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FREE CRM Application Test Automation Test Suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FREE CRM Application Test Automation Test Suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FREE CRM Application Test Automation Test Suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FreeCRMTest by packages/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FreeCRMTest by packages/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FreeCRMTest by packages/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FreeCRMTest by packages/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FreeCRMTest by packages/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FreeCRMTest by packages/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/FreeCRMTest by packages/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/index.html.
+The file will have its original line endings in your working directory
+
+C:\Users\ndh70903\eclipse-workspace\FreeCRMTest>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   pom.xml
+        new file:   screenshots/1589438029420.png
+        new file:   src/main/java/com/crm/qa/base/TestBase.java
+        new file:   src/main/java/com/crm/qa/config/config.properties
+        new file:   src/main/java/com/crm/qa/pages/ContactsPage.java
+        new file:   src/main/java/com/crm/qa/pages/DealsPage.java
+        new file:   src/main/java/com/crm/qa/pages/HomePage.java
+        new file:   src/main/java/com/crm/qa/pages/LoginPage.java
+        new file:   src/main/java/com/crm/qa/pages/SignUpPage.java
+        new file:   src/main/java/com/crm/qa/pages/TasksPage.java
+        new file:   src/main/java/com/crm/qa/testdata/FreeCrmTestData.xlsx
+        new file:   src/main/java/com/crm/qa/util/TestUtil.java
+        new file:   src/main/java/com/crm/qa/util/WebEventListener.java
+        new file:   src/main/java/com/qa/ExtentReportListener/ExtentReporterNG.java
+        new file:   src/main/resounrces/testng.xml
+        new file:   src/main/resounrces/testng_sanity.xml
+        new file:   src/test/java/com/crm/qa/testcases/ContactsPageTest.java
+        new file:   src/test/java/com/crm/qa/testcases/LoginPageTest.java
+        new file:   target/FreeCRMTest-0.0.1-SNAPSHOT.jar
+        new file:   target/classes/com/crm/qa/base/TestBase.class
+        new file:   target/classes/com/crm/qa/pages/ContactsPage.class
+        new file:   target/classes/com/crm/qa/pages/DealsPage.class
+        new file:   target/classes/com/crm/qa/pages/HomePage.class
+        new file:   target/classes/com/crm/qa/pages/LoginPage.class
+        new file:   target/classes/com/crm/qa/pages/SignUpPage.class
+        new file:   target/classes/com/crm/qa/pages/TasksPage.class
+        new file:   target/classes/com/crm/qa/util/TestUtil.class
+        new file:   target/classes/com/crm/qa/util/WebEventListener.class
+        new file:   target/classes/com/qa/ExtentReportListener/ExtentReporterNG.class
+        new file:   target/maven-archiver/pom.properties
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+        new file:   target/surefire-reports/Command line suite/Command line test.html
+        new file:   target/surefire-reports/Command line suite/Command line test.xml
+        new file:   target/surefire-reports/TEST-TestSuite.xml
+        new file:   target/surefire-reports/TestSuite.txt
+        new file:   target/surefire-reports/bullet_point.png
+        new file:   target/surefire-reports/collapseall.gif
+        new file:   target/surefire-reports/emailable-report.html
+        new file:   target/surefire-reports/failed.png
+        new file:   target/surefire-reports/index.html
+        new file:   target/surefire-reports/jquery-1.7.1.min.js
+        new file:   target/surefire-reports/junitreports/TEST-com.crm.qa.testcases.ContactsPageTest.xml
+        new file:   target/surefire-reports/junitreports/TEST-com.crm.qa.testcases.LoginPageTest.xml
+        new file:   target/surefire-reports/navigator-bullet.png
+        new file:   target/surefire-reports/old/Command line suite/Command line test.properties
+        new file:   target/surefire-reports/old/Command line suite/classes.html
+        new file:   target/surefire-reports/old/Command line suite/groups.html
+        new file:   target/surefire-reports/old/Command line suite/index.html
+        new file:   target/surefire-reports/old/Command line suite/main.html
+        new file:   target/surefire-reports/old/Command line suite/methods-alphabetical.html
+        new file:   target/surefire-reports/old/Command line suite/methods-not-run.html
+        new file:   target/surefire-reports/old/Command line suite/methods.html
+        new file:   target/surefire-reports/old/Command line suite/reporter-output.html
+        new file:   target/surefire-reports/old/Command line suite/testng.xml.html
+        new file:   target/surefire-reports/old/Command line suite/toc.html
+        new file:   target/surefire-reports/old/index.html
+        new file:   target/surefire-reports/passed.png
+        new file:   target/surefire-reports/skipped.png
+        new file:   target/surefire-reports/testng-reports.css
+        new file:   target/surefire-reports/testng-reports.js
+        new file:   target/surefire-reports/testng-results.xml
+        new file:   target/surefire-reports/testng.css
+        new file:   target/test-classes/com/crm/qa/testcases/ContactsPageTest.class
+        new file:   target/test-classes/com/crm/qa/testcases/LoginPageTest.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/Default suite/testng-failed.xml
+        new file:   test-output/Extent.html
+        new file:   test-output/FREE CRM Application Test Automation Test Suite/Free CRM App Test Cases.html
+        new file:   test-output/FREE CRM Application Test Automation Test Suite/Free CRM App Test Cases.xml
+        new file:   test-output/FREE CRM Application Test Automation Test Suite/testng-failed.xml
+        new file:   test-output/FreeCRMTest by packages/com.crm.qa.testcases.html
+        new file:   test-output/FreeCRMTest by packages/com.crm.qa.testcases.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery-1.7.1.min.js
+        new file:   test-output/junitreports/TEST-com.crm.qa.testcases.ContactsPageTest.xml
+        new file:   test-output/junitreports/TEST-com.crm.qa.testcases.HomePageTest.xml
+        new file:   test-output/junitreports/TEST-com.crm.qa.testcases.LoginPageTest.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/old/Default suite/Default test.properties
+        new file:   test-output/old/Default suite/classes.html
+        new file:   test-output/old/Default suite/groups.html
+        new file:   test-output/old/Default suite/index.html
+        new file:   test-output/old/Default suite/main.html
+        new file:   test-output/old/Default suite/methods-alphabetical.html
+        new file:   test-output/old/Default suite/methods-not-run.html
+        new file:   test-output/old/Default suite/methods.html
+        new file:   test-output/old/Default suite/reporter-output.html
+        new file:   test-output/old/Default suite/testng.xml.html
+        new file:   test-output/old/Default suite/toc.html
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/Free CRM App Test Cases.properties
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/classes.html
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/groups.html
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/index.html
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/main.html
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/methods-alphabetical.html
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/methods-not-run.html
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/methods.html
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/reporter-output.html
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/testng.xml.html
+        new file:   test-output/old/FREE CRM Application Test Automation Test Suite/toc.html
+        new file:   test-output/old/FreeCRMTest by packages/classes.html
+        new file:   test-output/old/FreeCRMTest by packages/com.crm.qa.testcases.properties
+        new file:   test-output/old/FreeCRMTest by packages/groups.html
+        new file:   test-output/old/FreeCRMTest by packages/index.html
+        new file:   test-output/old/FreeCRMTest by packages/main.html
+        new file:   test-output/old/FreeCRMTest by packages/methods-alphabetical.html
+        new file:   test-output/old/FreeCRMTest by packages/methods-not-run.html
+        new file:   test-output/old/FreeCRMTest by packages/methods.html
+        new file:   test-output/old/FreeCRMTest by packages/reporter-output.html
+        new file:   test-output/old/FreeCRMTest by packages/testng.xml.html
+        new file:   test-output/old/FreeCRMTest by packages/toc.html
+        new file:   test-output/old/index.html
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-failed.xml
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-results.xml
+        new file:   test-output/testng.css
+        new file:   testng.xml
+
+
+C:\Users\ndh70903\eclipse-workspace\FreeCRMTest>git commit -m "first commit"
+[master (root-commit) 5a899d9] first commit
+ 133 files changed, 5132 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 pom.xml
+ create mode 100644 screenshots/1589438029420.png
+ create mode 100644 src/main/java/com/crm/qa/base/TestBase.java
+ create mode 100644 src/main/java/com/crm/qa/config/config.properties
+ create mode 100644 src/main/java/com/crm/qa/pages/ContactsPage.java
+ create mode 100644 src/main/java/com/crm/qa/pages/DealsPage.java
+ create mode 100644 src/main/java/com/crm/qa/pages/HomePage.java
+ create mode 100644 src/main/java/com/crm/qa/pages/LoginPage.java
+ create mode 100644 src/main/java/com/crm/qa/pages/SignUpPage.java
+ create mode 100644 src/main/java/com/crm/qa/pages/TasksPage.java
+ create mode 100644 src/main/java/com/crm/qa/testdata/FreeCrmTestData.xlsx
+ create mode 100644 src/main/java/com/crm/qa/util/TestUtil.java
+ create mode 100644 src/main/java/com/crm/qa/util/WebEventListener.java
+ create mode 100644 src/main/java/com/qa/ExtentReportListener/ExtentReporterNG.java
+ create mode 100644 src/main/resounrces/testng.xml
+ create mode 100644 src/main/resounrces/testng_sanity.xml
+ create mode 100644 src/test/java/com/crm/qa/testcases/ContactsPageTest.java
+ create mode 100644 src/test/java/com/crm/qa/testcases/LoginPageTest.java
+ create mode 100644 target/FreeCRMTest-0.0.1-SNAPSHOT.jar
+ create mode 100644 target/classes/com/crm/qa/base/TestBase.class
+ create mode 100644 target/classes/com/crm/qa/pages/ContactsPage.class
+ create mode 100644 target/classes/com/crm/qa/pages/DealsPage.class
+ create mode 100644 target/classes/com/crm/qa/pages/HomePage.class
+ create mode 100644 target/classes/com/crm/qa/pages/LoginPage.class
+ create mode 100644 target/classes/com/crm/qa/pages/SignUpPage.class
+ create mode 100644 target/classes/com/crm/qa/pages/TasksPage.class
+ create mode 100644 target/classes/com/crm/qa/util/TestUtil.class
+ create mode 100644 target/classes/com/crm/qa/util/WebEventListener.class
+ create mode 100644 target/classes/com/qa/ExtentReportListener/ExtentReporterNG.class
+ create mode 100644 target/maven-archiver/pom.properties
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+ create mode 100644 target/surefire-reports/Command line suite/Command line test.html
+ create mode 100644 target/surefire-reports/Command line suite/Command line test.xml
+ create mode 100644 target/surefire-reports/TEST-TestSuite.xml
+ create mode 100644 target/surefire-reports/TestSuite.txt
+ create mode 100644 target/surefire-reports/bullet_point.png
+ create mode 100644 target/surefire-reports/collapseall.gif
+ create mode 100644 target/surefire-reports/emailable-report.html
+ create mode 100644 target/surefire-reports/failed.png
+ create mode 100644 target/surefire-reports/index.html
+ create mode 100644 target/surefire-reports/jquery-1.7.1.min.js
+ create mode 100644 target/surefire-reports/junitreports/TEST-com.crm.qa.testcases.ContactsPageTest.xml
+ create mode 100644 target/surefire-reports/junitreports/TEST-com.crm.qa.testcases.LoginPageTest.xml
+ create mode 100644 target/surefire-reports/navigator-bullet.png
+ create mode 100644 target/surefire-reports/old/Command line suite/Command line test.properties
+ create mode 100644 target/surefire-reports/old/Command line suite/classes.html
+ create mode 100644 target/surefire-reports/old/Command line suite/groups.html
+ create mode 100644 target/surefire-reports/old/Command line suite/index.html
+ create mode 100644 target/surefire-reports/old/Command line suite/main.html
+ create mode 100644 target/surefire-reports/old/Command line suite/methods-alphabetical.html
+ create mode 100644 target/surefire-reports/old/Command line suite/methods-not-run.html
+ create mode 100644 target/surefire-reports/old/Command line suite/methods.html
+ create mode 100644 target/surefire-reports/old/Command line suite/reporter-output.html
+ create mode 100644 target/surefire-reports/old/Command line suite/testng.xml.html
+ create mode 100644 target/surefire-reports/old/Command line suite/toc.html
+ create mode 100644 target/surefire-reports/old/index.html
+ create mode 100644 target/surefire-reports/passed.png
+ create mode 100644 target/surefire-reports/skipped.png
+ create mode 100644 target/surefire-reports/testng-reports.css
+ create mode 100644 target/surefire-reports/testng-reports.js
+ create mode 100644 target/surefire-reports/testng-results.xml
+ create mode 100644 target/surefire-reports/testng.css
+ create mode 100644 target/test-classes/com/crm/qa/testcases/ContactsPageTest.class
+ create mode 100644 target/test-classes/com/crm/qa/testcases/LoginPageTest.class
+ create mode 100644 test-output/Default suite/Default test.html
+ create mode 100644 test-output/Default suite/Default test.xml
+ create mode 100644 test-output/Default suite/testng-failed.xml
+ create mode 100644 test-output/Extent.html
+ create mode 100644 test-output/FREE CRM Application Test Automation Test Suite/Free CRM App Test Cases.html
+ create mode 100644 test-output/FREE CRM Application Test Automation Test Suite/Free CRM App Test Cases.xml
+ create mode 100644 test-output/FREE CRM Application Test Automation Test Suite/testng-failed.xml
+ create mode 100644 test-output/FreeCRMTest by packages/com.crm.qa.testcases.html
+ create mode 100644 test-output/FreeCRMTest by packages/com.crm.qa.testcases.xml
+ create mode 100644 test-output/bullet_point.png
+ create mode 100644 test-output/collapseall.gif
+ create mode 100644 test-output/emailable-report.html
+ create mode 100644 test-output/failed.png
+ create mode 100644 test-output/index.html
+ create mode 100644 test-output/jquery-1.7.1.min.js
+ create mode 100644 test-output/junitreports/TEST-com.crm.qa.testcases.ContactsPageTest.xml
+ create mode 100644 test-output/junitreports/TEST-com.crm.qa.testcases.HomePageTest.xml
+ create mode 100644 test-output/junitreports/TEST-com.crm.qa.testcases.LoginPageTest.xml
+ create mode 100644 test-output/navigator-bullet.png
+ create mode 100644 test-output/old/Default suite/Default test.properties
+ create mode 100644 test-output/old/Default suite/classes.html
+ create mode 100644 test-output/old/Default suite/groups.html
+ create mode 100644 test-output/old/Default suite/index.html
+ create mode 100644 test-output/old/Default suite/main.html
+ create mode 100644 test-output/old/Default suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Default suite/methods-not-run.html
+ create mode 100644 test-output/old/Default suite/methods.html
+ create mode 100644 test-output/old/Default suite/reporter-output.html
+ create mode 100644 test-output/old/Default suite/testng.xml.html
+ create mode 100644 test-output/old/Default suite/toc.html
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/Free CRM App Test Cases.properties
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/classes.html
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/groups.html
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/index.html
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/main.html
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/methods-alphabetical.html
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/methods-not-run.html
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/methods.html
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/reporter-output.html
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/testng.xml.html
+ create mode 100644 test-output/old/FREE CRM Application Test Automation Test Suite/toc.html
+ create mode 100644 test-output/old/FreeCRMTest by packages/classes.html
+ create mode 100644 test-output/old/FreeCRMTest by packages/com.crm.qa.testcases.properties
+ create mode 100644 test-output/old/FreeCRMTest by packages/groups.html
+ create mode 100644 test-output/old/FreeCRMTest by packages/index.html
+ create mode 100644 test-output/old/FreeCRMTest by packages/main.html
+ create mode 100644 test-output/old/FreeCRMTest by packages/methods-alphabetical.html
+ create mode 100644 test-output/old/FreeCRMTest by packages/methods-not-run.html
+ create mode 100644 test-output/old/FreeCRMTest by packages/methods.html
+ create mode 100644 test-output/old/FreeCRMTest by packages/reporter-output.html
+ create mode 100644 test-output/old/FreeCRMTest by packages/testng.xml.html
+ create mode 100644 test-output/old/FreeCRMTest by packages/toc.html
+ create mode 100644 test-output/old/index.html
+ create mode 100644 test-output/passed.png
+ create mode 100644 test-output/skipped.png
+ create mode 100644 test-output/testng-failed.xml
+ create mode 100644 test-output/testng-reports.css
+ create mode 100644 test-output/testng-reports.js
+ create mode 100644 test-output/testng-results.xml
+ create mode 100644 test-output/testng.css
+ create mode 100644 testng.xml
+
+C:\Users\ndh70903\eclipse-workspace\FreeCRMTest>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ndh70903\eclipse-workspace\FreeCRMTest>git remote add origin https://github.com/sarputheen/test.git
+
+C:\Users\ndh70903\eclipse-workspace\FreeCRMTest>git push -u origin master
+Enumerating objects: 170, done.
+Counting objects: 100% (170/170), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (139/139), done.
+Writing objects: 100% (170/170), 426.08 KiB | 4.10 MiB/s, done.
+Total 170 (delta 40), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (40/40), done.
+To https://github.com/sarputheen/test.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\ndh70903\eclipse-workspace\FreeCRMTest>
