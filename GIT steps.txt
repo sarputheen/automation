@@ -1,5 +1,26 @@
 958a6f0932214727ae9b5329a9cc82dc
 
+Core Java (Oops and data types )
+Selenium web driver and Architecture
+Page Object Model Diagram(Naveen) 
+TestNG
+Cucumber (BDD)
+Protractor Angular 
+Jmeter + Blazemeter 
+ Jenkins CI
+Jenkins Git
+
+API testing - Postman
+Response codes
+
+Nunit - Need to learn
+
+Oops
+Loop
+If else
+
+Fillo
+
 https://bgasparotto.com/convert-jdk-exe-zip - To extract the Java installation jar file.
 
 json wire protocol selenium  complete documentaion -   https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol
