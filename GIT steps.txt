@@ -1,4 +1,4 @@
-958a6f0932214727ae9b5329a9cc82dc
+
 
 Core Java (Oops and data types )
 Selenium web driver and Architecture
@@ -26,6 +26,27 @@ https://bgasparotto.com/convert-jdk-exe-zip - To extract the Java installation j
 json wire protocol selenium  complete documentaion -   https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol
 
 C:\Users\ndh70903\.jenkins\secrets\initialAdminPassword
+
+
+java -jar jenkins.war --httpPort=9090
+
+To update Content Security Policy for Extent Report View start the jenkins with below cmd -Dhudson.model.DirectoryBrowserSupport.CSP=""
+
+cd C:\Users\Sarputheen\Documents\Jenkins\
+java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war --httpPort=9090 
+
+
+
+C:\Program Files\Java\jdk1.8.0_191\bin>netstat -ano|find "8080"
+  TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       5256
+  TCP    [::]:8080              [::]:0                 LISTENING       5256
+
+C:\Program Files\Java\jdk1.8.0_191\bin>taskkill /PID 7580 /F
+SUCCESS: The process with PID 5256 has been terminated.
+
+clear screeen -   C:\Program Files (x86)\Jenkins>cls
+
+
 
 **To generate proper Extent/HTML Report in Jenkins, use following script in Script Console of Jenkins:
 System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "") 
