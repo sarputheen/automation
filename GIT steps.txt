@@ -1,3 +1,10 @@
+You can refer this GIT page for different Jenkins images commands:
+https://github.com/jenkinsci/docker
+
+Use this command to setup Jenkins:
+
+docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
+
 
 
 Core Java (Oops and data types )
