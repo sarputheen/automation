@@ -1,3 +1,16 @@
+https://stackoverflow.com/questions/50053255/virtualbox-raw-mode-is-unavailable-courtesy-of-hyper-v-windows-10  --- to resolve the bleow issue
+
+Failed to open a session for the virtual machine ubuntu.
+
+Raw-mode is unavailable courtesy of Hyper-V. (VERR_SUPDRV_NO_RAW_MODE_HYPER_V_ROOT).
+
+Result Code: E_FAIL (0x80004005)
+Component: ConsoleWrap
+Interface: IConsole {872da645-4a9b-1727-bee2-5585105b9eed}
+
+
+
+
 To add hyper -v  add the below commands in a batch file and run it as administrator mode
 
 pushd "%~dp0"
