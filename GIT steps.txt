@@ -1,3 +1,13 @@
+Password reset for oracle data base 
+opn sql plus 
+type sys as sysdba 
+enter pasword 
+
+to reset type below 
+ALTER USER scott IDENTIFIED BY admin;
+
+
+
 You can refer this GIT page for different Jenkins images commands:
 https://github.com/jenkinsci/docker
 
